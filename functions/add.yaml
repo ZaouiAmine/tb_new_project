@@ -1,0 +1,15 @@
+id: QmdksPwq1WRphApaN3SYtwDb35rFKU1LE5UHFMxPMJt2Sx
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /lib/add
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 1s
+    memory: 10MB
+    call: doAdd
