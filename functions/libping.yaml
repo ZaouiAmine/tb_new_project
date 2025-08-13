@@ -1,0 +1,15 @@
+id: QmQGyCWyUoXnuT9VajXoCPnvyD6D4wjz1tZwGVow34s2iP
+description: ""
+tags: []
+source: libraries/tauhow_example_library
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /lib/ping
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 1s
+    memory: 10MB
+    call: ping
