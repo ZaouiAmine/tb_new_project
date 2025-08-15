@@ -1,0 +1,12 @@
+id: QmTiVcvhsMr3maFfYPHJsQRt2mhnrrcd719zqW3FobJMto
+description: ""
+tags: []
+match: /example/kv
+useRegex: false
+access:
+    network: all
+replicas:
+    min: 1
+    max: 2
+storage:
+    size: 100MB
