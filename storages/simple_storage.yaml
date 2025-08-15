@@ -1,0 +1,10 @@
+id: QmRoNs49TQQgJMD9xG7VDpoyuvGkaxVrAiXsap5Qy55ioN
+description: ""
+tags: []
+match: /simple/storage
+useRegex: false
+access:
+    network: host
+object:
+    versioning: false
+    size: 1MB
