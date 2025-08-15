@@ -1,0 +1,12 @@
+id: QmQ5b9TfcaaoqFsuXTg51ikCb2b3wLVPYzU9A9eVornrrW
+description: ""
+tags: []
+local: false
+channel:
+    regex: true
+    match: chat-[a-zA-Z0-9_]+
+bridges:
+    mqtt:
+        enable: false
+    websocket:
+        enable: true
