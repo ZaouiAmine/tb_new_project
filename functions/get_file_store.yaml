@@ -1,0 +1,15 @@
+id: QmTWeLTZ2b7rcC8cVAZ13nyWTVuwyJjXmyJUuaRns26Ekx
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/store
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 100MB
+    call: get
