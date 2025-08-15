@@ -1,0 +1,15 @@
+id: QmZJPMSpyVkYwku5cUkds32WZvi2r59PiUC9thA3HD76hU
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/kv
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: get
