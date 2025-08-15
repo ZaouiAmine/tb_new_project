@@ -1,0 +1,15 @@
+id: QmR3aRpdYdKmLYHiLQZ1HqiYepDyikXbrjdK2MyPdCf2Nv
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/kv
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: set
