@@ -1,0 +1,15 @@
+id: Qmak6K8jDmY1msWtW5rVaKZ68dybR1jRw8o1UWh3hjEYUf
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/store
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 100MB
+    call: store
